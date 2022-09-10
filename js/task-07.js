@@ -7,5 +7,6 @@ range.addEventListener("change", setOutput);
 
 function setOutput() {
         const selectedOptionValue = range.value;
-        textOutput.style.fontSize = selectedOptionValue
+        console.log(selectedOptionValue);
+        textOutput.style.fontSize = selectedOptionValue + 'px';
 }
