@@ -3,7 +3,7 @@ const textOutput = document.querySelector("#text");
 
 setOutput();
 
-range.addEventListener("change", setOutput);
+range.addEventListener("input", setOutput);
 
 function setOutput() {
         const selectedOptionValue = range.value;
