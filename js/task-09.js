@@ -10,7 +10,6 @@ const coloredSpan = document.querySelector(".color");
 
 const handleButtonClick = () => {
   let color = getRandomHexColor();
-  console.log(color);
   coloredSpan.textContent = color;
   document.body.style.backgroundColor = color;
 }

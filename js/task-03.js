@@ -19,4 +19,4 @@ const listImg = document.querySelector(".gallery");
 const markup = images
   .map((image) => `<li><img src="${image.url}" alt="${image.alt} width="100" height="100""></li>`)
   .join("");
-listImg.insertAdjacentHTML("beforebegin", markup);
+listImg.insertAdjacentHTML("afterbegin", markup);
